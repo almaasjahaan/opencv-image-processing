@@ -14,11 +14,11 @@ Step 2: Brightness Adjustment
 Create a matrix of ones (data type float64) to control the brightness level of the image.
 
 Step 3: Brightness Transformation
-Generate:
+# Generate:
 
 A brighter image by adding the matrix to the original image
 A darker image by subtracting the matrix from the original image
-Display:
+# Display:
 
 Original Image
 Brighter Image
@@ -26,7 +26,7 @@ Darker Image
 Step 4: Contrast Modification
 Modify image contrast by applying scaling factors of 1.1 and 1.2 (without overflow correction) to generate higher contrast images.
 
-Display:
+# Display:
 
 Original Image
 Lower Contrast Image
